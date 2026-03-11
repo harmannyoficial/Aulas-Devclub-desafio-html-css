@@ -1,0 +1,52 @@
+/* 
+pseudo elemento
+estilizando pelo css tudo que foi feito no html
+
+usando :: na frente da classe
+ex:
+class::after
+
+*/
+
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*--pseudo elemento troca a cor do input no css
+digitar a class  depois a variavel placeholder 
+nome de dentro do elemento */
+
+input::placeholder {
+    color:red
+}
+
+
+/* troca a cor da primeira letra do paragrafo*/
+p{font-size: 20px;}
+p::first-letter {
+    font-size: 30px;
+    
+    color: red;
+}
+
+
+/* troca a cor da primeira letra do paragrafo*/
+h2::first-line{
+    color: red;
+}
+
+/*adicina elementos depois final*/
+h3::after{
+    content:"°";
+}
+
+/*adiciona elementos antes do començo*/
+h4::before {
+    content: "°";
+}
+
+
+
+
+

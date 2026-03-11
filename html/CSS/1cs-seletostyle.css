@@ -1,0 +1,21 @@
+
+ /*usado para estilizar o site lembrar de acioonar ; */
+
+ /*id clasifica */
+    #texto {
+        color: black;
+        height:10;
+    }
+
+    #p { 
+      color:maroon;
+      height:15;
+    }
+
+ /*classe clasifica */
+    .t{
+        color: rgb(205, 149, 149);
+       font-size: 3;
+    }
+
+ 

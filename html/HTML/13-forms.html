@@ -1,0 +1,31 @@
+
+<!-- FORMS / formularios  --> 
+ <!--identifica quando o email, senha, numero nao estam 
+ corretos -->
+
+<forms action="" method="get" enctype="multipart/form-data"/>
+    <h2>digite seu endereço:</h2>
+    <br>
+    <label>
+        rua:
+        <input type="text" name="rua" autocomplete="street-address">
+    </label>
+    
+    <label>
+        numero:
+        <input type="number" name="numero">
+    </label>
+
+     <label>
+        email:
+        <input type="email" name="email" autocomplete="email">
+    </label>
+
+    <label>
+        foto:
+        <input type="file" name="file"/> <!--usar enctype="multipart/form-data quando usar o file no input ">
+    </label>
+
+    <button type="reset"> reset</button>
+    <button type="submit" >enviar dados</button>
+</forms>

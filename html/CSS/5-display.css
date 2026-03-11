@@ -1,0 +1,48 @@
+/* display*/
+
+
+.box{ 
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block; /*deixa texto e imagem em linha lateral*/
+    
+}
+
+.box2 {
+    background: blue;
+     
+}
+
+.box3{
+    background: red;
+}
+
+h1{
+    display: inline-block;
+ }
+/* lembrando que poder ser adicionado mais de uma
+class , adicionar quantas class quiser 
+
+
+
+
+
+
+/*
+
+BLOCK- é o modelo padrão do css  deixa voce
+conigurar e modificar os elementos 
+ele ocupa 100 cento da largura.
+largura é definida pelo tamando do conteudo 
+podendo definir altura e largura 
+e tbm o tamanho da margem 
+
+INLINE - vem com o padrao span  negrito e itali
+ganha comportamento de palavras fazendo com que as 
+imagens palavras
+
+INLINE-BLOCK - USA OS DOIS MODELOS EM UM SÓ 
+podendo modificar a altura largura , margem e padding 
+

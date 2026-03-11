@@ -1,0 +1,55 @@
+/* posição de caixas <div body etc 
+
+position: static; nao muda a posição  os elementos sao adicionado no modo padrão sempre no canto esquerdo da tela 
+e NÃO pode ser modificados com nenhuma tag : top, botton, heigth, lefth. 
+
+position: fixed; a caixa fica fixa na tela , e se tiveruma caixa pai voce arrastar
+a tela  a caixa pai  que ira se mover .(caixa pai fica atras da caixa fixa ) pode ser movido com (TOP LEFTH 
+
+position: sticky; voce determina o lugar onde quer que ela pare . por exemplo alguns menu que voce ja viu que quando 
+a tela rola o menu fica parado ( PODE SER MOVIDO COM TOP LEFTH E OUTROS 
+
+position:relative; a caixa se move relativamento onde ela nasceu.  e o relative nao esconte outra pagina na frente 
+podendo ser movido ( TOP LEFTH  
+
+position:absolute-  se move com a referente a pagina por nao ter um pai ou ser static
+se nao tiver pai ou pai se static 
+se tiver um filho o filho pode ser movimentado dentro dele 
+
+
+SEMPRE USAR O INSPECIONAR NA PAG PARA PASSAR PARA O CSS
+*/
+
+*{
+    width: 400vw;
+    height: 400vh;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box-pai{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: fixed; /* fica parado como menu*/
+    top: 10px;
+
+}
+
+.box-filho {
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+    position: relative;
+    top: 20px;
+}
+
+.primo{
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    margin-top: 400px;
+    position:relative; /* fica na frente e é o que se move para troca é so tirar o position do primo   */
+}

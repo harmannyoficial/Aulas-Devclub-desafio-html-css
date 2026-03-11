@@ -1,0 +1,40 @@
+/*padding e margin*/
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    padding: 50px;
+    
+}
+
+.box2 {
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    margin: 100px;
+}
+
+/*espaçamentos de ambos os lados
+cria espacos diferentes com sentido horario
+margin: 50px 40px 60px 30px; 
+
+cria espacos diferentes com sentido horario
+pading: 50px 40px 60px 30px;
+
+cria espacos diferentes com sentido horario e os lados sao iguais 
+pading: 50px 40px  30px;    primeiro em cima , segunado ambos os lados , treceiro em abaixo 
+margin: 50px 40px  30px; 
+
+
+cria espacos diferentes em dois valores altomaticamente 
+margin: 50px 40px; primeiro valor é encima e embaixo  
+pading: 50px 40px; segundo valor em cima em baixo 
+
+
+
+
+
+
+*/
+

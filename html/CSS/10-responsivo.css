@@ -1,0 +1,40 @@
+
+/* site resonsivel- responsivo- é criar um site que se 
+adapte celular, computador, 
+tablet etc.. */
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*@midia max aumenta a tela apos o 100px adicionado */
+div{
+    height: 100px;
+    width: 100px;
+    background: blue;
+}
+
+@media (max-width: 500px){
+    div {
+        background-color: red;
+    }
+    
+}
+
+/* @midia min  diminui a tela quando atinge 100px*/
+
+.d2 {
+    height: 100px;
+    width: 100px;
+    background: red;
+
+} 
+
+@media (max-width: 500px){
+    div {
+        background-color: blue;
+    }
+    
+}
