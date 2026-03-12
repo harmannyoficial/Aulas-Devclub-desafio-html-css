@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*sempre usar esse modelo no css 
+para padronizar os elementos */
+*{
+   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin:20px 100px 10px ; /*espaco em todos os lados por fora */
+    line-height:20px; /*espaçamento de cima ou em baixo do texto */
+
+}
+.link-header {
+    margin-left: 23px; /*espaco na esquerada por fora */
+    font-family: "Montserrat", sans-serif; /* modelo da letra*/
+    font-size: 18px;  /*tamanho da letra*/
+    line-height: 0px;  /*espaçamento de cima ou em baixo do texto */
+    color: rgb(100, 98, 98);
+    cursor: pointer; /*troca a seta do mouse */
+}
+
+.button-login {
+    font-family: "Montserrat", sans-serif; /* modelo da letra*/
+    font-size: 18PX;    /*tamanho da letra*/
+    margin-left: 23px;  /*espaco na esquerada por fora */
+    padding: 5px 10px;  /*espaco por dento */
+    border-radius: 30px; /* arredondamento da borda */
+    border: 0px;   /*contorno borda do botao*/
+    background: green; /*cor :preencher o elemento*/
+    color: white;   /*cor letra */
+    cursor: pointer; /* troca a seta do mouse  */
+    filter: drop-shadow(0px 4px 4px rgb(73, 68, 68)); /* sombra no botão */  
+    transition: background-color 0.3s ease; /*muda a cor do botao quando passa o mouse 
+     : usar  junto com  .button-login:hover{ background-color: cor } */
+}
+
+.button-login:hover {
+    background-color: greenyellow; /*muda a cor do botao quando passa o mouse */
+}
+
+
+section {
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 8%;
+    display: inline-block; /*coloca as coisas do lado da outra texto e imagem */
+}
+
+img {
+    height:60%; /*altura */
+    width: 30%;   /*largura */
+    margin: 30px 20px 11px 40px;
+}
+
+h1{
+    font-weight: 900px; /*largura da fonte*/
+    font-size: 30px;
+    line-height: 70px; /*espaçamento de cima ou em baixo do texto */
+    margin-right: 10px;
+    color: black;
+    
+}
+
+h2 {
+    
+    font-size: 25px;
+    line-height: 30px; /*espaçamento de cima ou em baixo do texto */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color:rgb(120, 91, 55) ;
+         /*largura do textos */
+
+}
+
+p { 
+    font-size: 18px;
+    line-height: 30px; /*espaçamento de cima ou em baixo do texto */ 
+    margin-bottom: 30px;
+}
+
+.b-agenda{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24PX;
+    border-radius: 30px;
+    margin-left: 120px;
+    margin-bottom: 10px ;
+    padding: 15px 55px;
+    border: 0px; 
+    background: green;
+    color: white;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgb(73, 68, 68)); /* sombra no botão */   
+    transition: background-color 0.3s ease /*muda a cor do botao quando passa o mouse */
+}
+.b-agenda:hover {
+    background-color: greenyellow;
+}
+
+
+
+
+

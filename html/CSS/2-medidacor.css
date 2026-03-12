@@ -1,0 +1,57 @@
+
+  /* estilo da letra   */
+
+   /* para importar letras é so colar o @import do google fonts  sem os <style> 
+   o css ja é um style por isso nao é nescessario adicionar o style*/
+
+
+
+/* <body>caixa maior */
+.vo {
+    
+}
+
+/* configuração da <div> caixa media */
+.pai {
+    width: 60%;                                     /* largura do quadrado da div  */
+    background-color: rgb(241, 163, 163);           /*cor do fundo da da div */
+    color:rgb(9, 9, 9);                                  /*ALTURA DA DIV  */
+                                              
+}
+    
+/* <h1> textos */ /* a class  precisa ser buscado com o . */
+.filho {
+       /* background: rgb(23, 60, 255, OPACITY 0.1 ) ; PACITY  so funciona no modo rgb  OPACIDADE somente na tela de fundo: ;*/  
+        color: rgb(0, 60, 255);                                         /*cor da letra */
+        font-size: 25px;                                                  /*tamanho da letra  */
+        font-family: "Roboto Condensed", sans-serif;                      /*nome da letra */
+        font-style: italic;                                               /*estilo da letra  */
+        line-height: 40px;                                                /*espaç entre os paragrafos */
+        letter-spacing: 3px;                                              /* espaços entre as letras */
+        word-spacing: 10px;                                               /* espaços entre as palavras */
+        text-align: center; /* right; justify*/                           /* alinhamento de texto  */
+        text-transform: lowercase;  /* uppercase , capitalize*/           /* modifica letra pra maiuscula ou somente a primeira */
+        text-decoration: underline; /* overline*/                         /*  under ____ na letra  */ 
+        text-shadow: 10px 10px 20px red;  /*  sombra nas letras */            /*  sombra  vertical 10 , horizontal 10 , clareza 20  e cores  */ 
+
+
+}
+
+
+/*o id precisa ser buscado com o # */
+#sub {
+    color: rgb(43, 0, 255);
+    background-color: rgb(43, 180, 226);
+}
+
+#tc {
+    color: brown;
+    background-color: rgb(143, 100, 100);
+}
+/* 
+
+% determina o tamanho da letra  com base do tamanho  caixa 
+vw é a largura  e faz com que tudo diminua com o tamanho da tela usar para 
+vh é a altura e faz com que dimunia tbm junto com a tela 
+em  cresce as letra em modo cascata almentou a primeira  vai almentar todas juntas 
+rem  usa a primeira  referencia somente ,

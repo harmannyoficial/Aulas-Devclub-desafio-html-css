@@ -1,0 +1,73 @@
+/*
+:first-child - é o primeiro filho de um pai / ex: é o primeiro (<li>filho) de um (<ul>pai)
+
+:first-of-type - é o primeiro filho de um pai  elemento de uma lista
+
+:last-child - ultimo filho do seu pai   elemento de uma lista 
+
+: last-of-type - é o ULTIMO filho de um pai  elemento de uma lista
+
+  :not() - estiliza todos os elemento menos o selecionado no ()
+
+:nth-child(): numera o elemento que voce quer estilizar 
+
+:nth-last-child(): numero os elementos de traz pra frente 
+*/
+
+
+
+
+*{
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 18px;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+/* O PRIMEIRO FILHO DE CADA PAI */
+
+li:first-child{  /* é o PRIMEIRO filho de um pai / ex: é o primeiro (<li>filho) de um (<ul>pai)*/
+    color: red;
+}
+
+li:last-child{ /* é o ULTIMO filho de um pai / ex: é o ultimo(<li>filho) de um (<ul>pai)*/
+    font-size: 20px;
+    color: yellow;
+}
+ 
+li:first-letter{ /*PRIMEIRO letra */
+    color: palevioletred
+}
+
+li:nth-child(2){ /*numerizao elemento */
+    background: rgb(3, 132, 183);
+}
+
+li:nth-last-child(1){/*numeriza o elemento  de traz pra frente */
+    background: rgb(124, 229, 243);
+}
+
+
+/* O PRIMEIRO DE CADA TIPO */
+
+span:first-of-type{/*first-of-type - é o primeiro filho de um pai pore tipo */
+    color:blueviolet;
+}
+
+h2:first-of-type{
+    color: rgb(35, 170, 65);
+}
+
+p:last-of-type { /*last-of-type - é o ULTIMO filho de um pai pore tipo */
+    color: brown;
+}
+
+/* :not() quero todos com uma tag , menos (essa)o que eu  nao quero dentro do ()*/
+
+.d1 :not(h4) { /*usar espaço antes do :not */
+    letter-spacing: 20px;
+    
+}

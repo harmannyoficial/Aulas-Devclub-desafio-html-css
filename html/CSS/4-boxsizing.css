@@ -1,0 +1,17 @@
+/*usaremos sempre em todos
+*{} limita o height e o weidth para deixar todas as caixas com o tamanho especifico
+para adicionar os elementos aos projetos do site  */
+
+*{
+    box-sizing: border-box;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background: red;
+    padding: 10px;
+    border: 10px solid black;
+
+
+
+}

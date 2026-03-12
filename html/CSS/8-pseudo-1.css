@@ -1,0 +1,77 @@
+
+/* pseudo .class:
+
+:active- usado para trocar a cor do elemento quando o mesmo for ativo 'somente quando for clicado '
+
+:visited- troca de cor informando que o elemento ja foi clicado ou visitado
+
+:hover- acende o nome do elemento quando passa o mouse em cima podendo trocar a cor 
+
+:checked- usado em radio bolinhas/ checkbox caixinhas / select menuzinho  podendo mudar o tamanho  ao clicar 
+
+:disabla- desabilita o elemento antes de uma ação concluida 
+ou deixa desabelitado .
+
+focus: Ao clicar deixa o elemento com um destaque (podendo alterar a cor )
+
+:out-line- adiciona ou tira a cor de destaque 
+
+:read-only- adiciona input somente para leitura (com nome dentro do imput )
+
+:empty- usado quando o elemento estiver vazio (apartir de tal tamanho uma ação sera feita) 
+
+hov na pagina para ver os pseudo que precisa ser ativo
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.ac:active { /*precisa clicar para poder ver o que ele faz*/
+    color: red;
+}
+
+.av:visited { /* o link precisa levar para uma pagina com outra janela para funcionar*/
+    color:violet
+}
+
+.ah:hover{
+    color: aquamarine;
+}
+
+input:checked{
+    height: 20px;
+    width: 20px;
+}
+
+.inp:disabled {/*disabled escrito no html input botao  ex: abra o html-8*/
+    height: 20px;
+    width: 20px;
+}
+
+.if:focus{
+    border: 4px solid orange;
+    text-shadow: 1px 0px 0px;
+}
+
+
+.ir:read-only{ /*fixa o que esta escrito no input  e nao deixa ser apagodo  escrito no html tbm  ex: abra o html-8*/
+    border: 2px;
+}
+
+
+div {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:lightcoral;
+}
+div:empty { /*usaremos para saber se uma pagina do site esta vazia  e assim o cliente pode adicionar suas compras*/ 
+    background-color: blue;
+}
