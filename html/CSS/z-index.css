@@ -1,0 +1,24 @@
+
+/* z- index;0:  (-1 , 0, 1, 2 3  define se a imagem fica no fundo ou na frente */
+
+
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    z-index:1;
+}
+img{
+    position:fixed;
+    top: 0;
+    z-index: -1 ;   /* z- index define se a imagem fica no fundo ou na frente */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
